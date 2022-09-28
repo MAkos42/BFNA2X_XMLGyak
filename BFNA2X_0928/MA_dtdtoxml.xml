@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MAmodell SYSTEM "MA_ertodtd.dtd">
+<MAmodell>
+    <A Aa="id">
+        <Ab>
+            <Ax>idk</Ax>
+            <Ay>teszt</Ay>
+        </Ab>
+        <Ab>
+            <Ax>asd</Ax>
+            <Ay>reeee</Ay>
+        </Ab>
+        <Ac>
+            <Ad>ad</Ad>
+            <Ae>sadasda</Ae>
+        </Ac>
+    </A>
+
+    <B Ba="id2">
+        <Bb>
+            <Bv>dasd</Bv>
+            <Bx>dasdas</Bx>
+        </Bb>
+    </B>
+    <C Ca="asdas">
+        <Cb>element</Cb>
+    </C>
+    <ABc>id to id2</ABc>
+    
+</MAmodell>
