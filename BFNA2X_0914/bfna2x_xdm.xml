@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="uft-8"?>
+<konferencia id="kf_01">
+    <cim>3515 Miskolc Egyetem út 1</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Jodn Doemann</nev>
+            <lakcim>valahol</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>XXXII előadó</helyszin>
+    <eloado>
+        <nev>Tóth Gergő</nev>
+        <adoszam>123456789</adoszam>
+        <lakcim>3530 Miskolc Példa utca 42.</lakcim>
+    </eloado>
+    <datum ev="2022" ho="11" nap="21"/>
+</konferencia>

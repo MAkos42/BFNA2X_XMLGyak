@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="uft-8"?>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex"/>
+        <szinesz id="u5q_4xm_2jb" nev="Madison_Ivy"/>
+        <iro id="trv_4xm_2jb"/>
+    </film>
+    
+    <film id="idk_nxm_2tn" mufaj="akcio">
+        <szinesz>
+            <gyerekszinesz id="prp_4xm_2tn" nev="John_Doe"/>
+            <musicaszinesz id="msc_4xm_2tn" nev="Wagner"/>
+            <szinkronszinesz id="sks_4xm_2tn" nev="Bob_Marley"/>
+        </szinesz>
+        <producer id="pdr_4xm_2tn"/>
+        <dramaturg id="dt3_4xm_2tn" nev="Ferenc_Bela"/>
+        <operator id="orp_4xm_2tn"/>
+    </film>
+</mozi>

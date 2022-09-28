@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="uft-8"?>
+
+<XY_orarend>
+    <ora id="h_01" tipus="elmelet">
+        <targy id="t_web_elm">WEB technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>A1 III. emelet 305"</helyszin>
+        <oktato>Agárdi Anita"</oktato>
+        <szak>Korszerü WEB-es technológiák"</szak>
+    </ora>
+
+    <ora id="h_02" tipus="elmelet">
+        <targy id="t_kit_elm">Korszerű információs technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>A1 III. emelet 320</helyszin>
+        <oktato>Dr. Árvai László</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    
+    <ora id="h_03" tipus="gyakorlat">
+        <targy id="t_kit_gyak">Korszerű információs technológiák</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1 III. emelet 320</helyszin>
+        <oktato>Soós Róbert</oktato>
+        <szak>Mérnökinformatikus</szak>
+    </ora>
+    
+    <ora id="k_01" tipus="elmelet">
+        <targy id="t_xml_elm">Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>XXXII A1 magasfsz</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Korszerü WEB-es technológiák</szak>
+    </ora>
+
+    <ora id="k_02" tipus="gyakorlat">
+        <targy id="t_web_gyak">WEB technológiák</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>18</tol>
+            <ig>20</ig>
+        </idopont>
+        <helyszin>In 22. em. 202</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Korszerü WEB-es technológiák</szak>
+    </ora>
+
+    <ora id="sz_01" tipus="gyakorlat">
+        <targy id="t_xml_gyak">Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>In 1. em. 101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Korszerü WEB-es technológiák</szak>
+    </ora>
+
+    <ora id="sz_02" tipus="gyakorlat">
+        <targy id="t_webalk_gyak">WEB-es alkalmazások</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>13</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>In 2. em. 202</helyszin>
+        <oktato>Dr. Barabás Péter</oktato>
+        <szak>Korszerü WEB-es technológiák</szak>
+    </ora>
+</XY_orarend>
