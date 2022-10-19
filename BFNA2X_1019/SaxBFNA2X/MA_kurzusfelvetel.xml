@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MA_kurzusfelvetel>
+
+<MA_kurzusfelvetel tanev="2022_23 I." egyetem="me">
+ <hallgato id="BFNA2X.ME">
+    <hnev>Mészáros Ákos</hnev>
+    <szulev>2000-09-25</szulev>
+    <szak evf="7">Mérnökinformatikus</szak>
+ </hallgato>
+
+ <kurzusok>
+    <kurzus id="GEIAL332-B">
+        <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+        <kredit>5</kredit>
+        <hely>XXXII.</hely>
+        <idopont>Kedd 12:00-13:30</idopont>
+        <oktato>Dr. Bednarik László</oktato>
+    </kurzus>
+
+    <kurzus id="GEIAL322-B" jovahagyas="igen">
+        <kurzusnev>Adatbázis rendsterek I.</kurzusnev>
+        <kredit>5</kredit>
+        <hely>In101</hely>
+        <idopont>Kedd 8:00-9:30</idopont>
+        <oktato>Dr. Kovács László</oktato>
+    </kurzus>
+
+    <kurzus id="GEIAL333-B">
+        <kurzusnev>WEB-es alkalmazások Java</kurzusnev>
+        <kredit>5</kredit>
+        <hely>In103</hely>
+        <idopont>Szerda 13:00-14:30</idopont>
+        <oktato>Dr. Barabás Péter</oktato>
+        <oraado>Toth Bence</oraado>
+    </kurzus>
+ </kurzusok>
+</MA_kurzusfelvetel>
