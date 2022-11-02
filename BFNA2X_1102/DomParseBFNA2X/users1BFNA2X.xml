@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="DOMBFNA2X">
+  <user id="1">
+    <firstname>Ákos</firstname>
+    <lastname>Mészáros</lastname>
+    <profession>Mérnökinformatikus</profession>
+  </user>
+  <user id="2">
+    <firstname>János</firstname>
+    <lastname>Kerekes</lastname>
+    <profession>Sofőr</profession>
+  </user>
+  <user id="3">
+    <firstname>Elemér</firstname>
+    <lastname>Mixáth</lastname>
+    <profession>pilóta</profession>
+  </user>
+</users>
