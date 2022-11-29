@@ -21,7 +21,7 @@ public class xPathBFNA2X {
         XPath xpath = XPathFactory.newInstance().newXPath();
 
         String expression1 = "/class/student";
-        String expression2 = "/class/student[@id=02]";
+/*         String expression2 = "/class/student[@id=02]";
         String expression3 = "//student";        
         String expression4 = "/class/student[2]";        
         String expression5 = "/class/student[last()]";        
@@ -31,11 +31,11 @@ public class xPathBFNA2X {
         String expression9 = "//student[@*]";        
         String expression10 = "//node()";        
         String expression11 = "/class/student[kor>20]";
-        String expression12 = "//student/keresztnev | //student/vezeteknev";
+        String expression12 = "//student/keresztnev | //student/vezeteknev"; */
         
 
 
-        NodeList nodelist = (NodeList) xpath.compile(expression11).evaluate(doc, XPathConstants.NODESET);
+        NodeList nodelist = (NodeList) xpath.compile(expression1).evaluate(doc, XPathConstants.NODESET);
 
         for (int i = 0; i < nodelist.getLength(); i++) {
 
