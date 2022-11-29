@@ -21,7 +21,7 @@ public class DomModifyNFNA2X {
 
         doc.getDocumentElement().normalize();
 
-        Node cars = doc.getFirstChild();
+        // Node cars = doc.getFirstChild();
 
         Node supercar = doc.getElementsByTagName("supercars").item(0);
 
@@ -31,7 +31,7 @@ public class DomModifyNFNA2X {
 
         NodeList list = supercar.getChildNodes();
         for(int i = 0; i < list.getLength(); i++){
-            Node node = list.item(i);
+            // Node node = list.item(i);
         }
     }
 }
