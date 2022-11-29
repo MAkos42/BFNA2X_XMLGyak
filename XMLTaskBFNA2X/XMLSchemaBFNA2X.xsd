@@ -19,27 +19,33 @@
                                         </xs:element>
                                         <xs:element name="password" type="xs:string" />
                                         <xs:element name="DoB" type="xs:date" />
-                                        <xs:element name="country" type="xs:string" />
-                                        <xs:element name="region">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:enumeration value="Europe" />
-                                                    <xs:enumeration value="North America" />
-                                                    <xs:enumeration value="South America" />
-                                                    <xs:enumeration value="Russia" />
-                                                    <xs:enumeration value="Middle East" />
-                                                    <xs:enumeration value="Asia" />
-                                                    <xs:enumeration value="SEA" />
-                                                    <xs:enumeration value="North Africa" />
-                                                    <xs:enumeration value="South Africa" />
-                                                </xs:restriction>
-                                            </xs:simpleType>
+                                        <xs:element name="address">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="country" type="xs:string" />
+                                                    <xs:element name="region">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="Europe" />
+                                                                <xs:enumeration value="North America" />
+                                                                <xs:enumeration value="South America" />
+                                                                <xs:enumeration value="Russia" />
+                                                                <xs:enumeration value="Middle East" />
+                                                                <xs:enumeration value="Asia" />
+                                                                <xs:enumeration value="SEA" />
+                                                                <xs:enumeration value="North Africa" />
+                                                                <xs:enumeration value="South Africa" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="city" minOccurs="0" type="xs:string" />
+                                                    <xs:element name="postalcode" minOccurs="0" type="xs:string" />
+                                                    <xs:element name="address" minOccurs="0" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="city" minOccurs="0" type="xs:string" />
-                                        <xs:element name="postalcode" minOccurs="0" type="xs:string" />
-                                        <xs:element name="address" minOccurs="0" type="xs:string" />
-                                    </xs:sequence>
-                                    <xs:attribute name="userid" use="required" />
+                                                </xs:sequence>
+                                    <xs:attribute name="userid" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="application" minOccurs="0">
@@ -62,12 +68,12 @@
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="appid" type="xs:integer" use="required" />
+                                    <xs:attribute name="appid" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="DoP" minOccurs="0" type="xs:date" />
                         </xs:sequence>
-                        <xs:attribute name="id" type="xs:decimal" />
+                        <xs:attribute name="id" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

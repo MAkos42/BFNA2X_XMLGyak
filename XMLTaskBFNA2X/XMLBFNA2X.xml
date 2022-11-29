@@ -3,28 +3,30 @@
 <!DOCTYPE store>
 <store>
     <purchase id="32153124563216">
-    <user userid="8527438538">
-        <username>St. John Paul II</username>
-        <email>realpope@churchofjc.vt</email>
-        <password>eb939414aa6e6055fd0c2699b495e26138537f74e9c9ea47e67ab1ced536077d</password>
-        <DoB>1920-05-18</DoB>
-        <country>Vatican</country>
-        <region>Europe</region>
-        <city>Vatican City</city>
-        <postalcode>00120</postalcode>
-        <address>Saint Peter's Basilica</address>
-    </user>
-    <application appid="1061910">
-        <title>Metal: Hellsinger</title>
-        <price>29.99€</price>
-        <categories>
-            <category>Action</category>
-            <category>FPS</category>
-            <category>Rythm</category>
-            <category>Single Player</category>
-        </categories>
-    </application>
-    <DoP>2022-10-11</DoP>
+        <user userid="8527438538">
+            <username>St. John Paul II</username>
+            <email>realpope@churchofjc.vt</email>
+            <password>eb939414aa6e6055fd0c2699b495e26138537f74e9c9ea47e67ab1ced536077d</password>
+            <DoB>1920-05-18</DoB>
+            <address>
+                <country>Vatican</country>
+                <region>Europe</region>
+                <city>Vatican City</city>
+                <postalcode>00120</postalcode>
+                <address>Saint Peter's Basilica</address>
+            </address>
+        </user>
+        <application appid="1061910">
+            <title>Metal: Hellsinger</title>
+            <price>29.99€</price>
+            <categories>
+                <category>Action</category>
+                <category>FPS</category>
+                <category>Rythm</category>
+                <category>Single Player</category>
+            </categories>
+        </application>
+        <DoP>2022-10-11</DoP>
     </purchase>
     <purchase id="25563252435235">
         <user userid="413423">
@@ -32,10 +34,12 @@
             <email>potatoenjoyer42@gmail.com</email>
             <password>c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a</password>
             <DoB>2000-09-25</DoB>
-            <country>Hungary</country>
-            <region>Europe</region>
-            <city>Sajólád</city>
-            <postalcode>3572</postalcode>
+            <address>
+                <country>Hungary</country>
+                <region>Europe</region>
+                <city>Sajólád</city>
+                <postalcode>3572</postalcode>
+            </address>
         </user>
         <application appid="223750">
             <title>DCS World</title>
@@ -55,10 +59,12 @@
             <email>potatoenjoyer42@gmail.com</email>
             <password>c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a</password>
             <DoB>2000-09-25</DoB>
-            <country>Hungary</country>
-            <region>Europe</region>
-            <city>Sajólád</city>
-            <postalcode>3572</postalcode>
+            <address>
+                <country>Hungary</country>
+                <region>Europe</region>
+                <city>Sajólád</city>
+                <postalcode>3572</postalcode>
+            </address>
         </user>
         <application appid="411950">
             <title>DCS: F/A-18C Hornet</title>
@@ -79,8 +85,10 @@
             <email>bob@idk.net</email>
             <password>b0e1f85ba356628f1cc3b4b549e00fcd7841f5c6826a2200d9d99c0ccf70f19e</password>
             <DoB>1996-01-03</DoB>
-            <country>Chile</country>
-            <region>South America</region>
+            <address>
+                <country>Chile</country>
+                <region>South America</region>
+            </address>
         </user>
         <application appid="1434950">
             <title>HighFleet</title>
