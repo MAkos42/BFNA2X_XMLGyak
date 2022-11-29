@@ -2,7 +2,7 @@
 <?xml-model href="XMLSchemaBFNA2X.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <!DOCTYPE store>
 <store>
-    <purchase id="32153124563216">
+    <purchase id="p32153124563216">
         <user userid="8527438538">
             <username>St. John Paul II</username>
             <email>realpope@churchofjc.vt</email>
@@ -28,7 +28,7 @@
         </application>
         <DoP>2022-10-11</DoP>
     </purchase>
-    <purchase id="25563252435235">
+    <purchase id="p25563252435235">
         <user userid="413423">
             <username>Spoopy McSpook</username>
             <email>potatoenjoyer42@gmail.com</email>
@@ -53,7 +53,7 @@
         </application>
         <DoP>2020-12-27</DoP>
     </purchase>
-    <purchase id="25563252452384">
+    <purchase id="p25563252452384">
         <user userid="413423">
             <username>Spoopy McSpook</username>
             <email>potatoenjoyer42@gmail.com</email>
@@ -79,7 +79,7 @@
         </application>
         <DoP>2020-12-30</DoP>
     </purchase>
-    <purchase id="214378654856874">
+    <purchase id="p214378654856874">
         <user userid="32134">
             <username>Bob</username>
             <email>bob@idk.net</email>
