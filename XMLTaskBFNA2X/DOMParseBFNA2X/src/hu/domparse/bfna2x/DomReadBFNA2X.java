@@ -29,10 +29,9 @@ public class DomReadBFNA2X {
         wf.write(sb.toString());
 
         wf.close();
-        
+
     }
 
-    
     private static void WriteAllChildren(NodeList childNodes, int indent) {
         for (int i = 0; i < childNodes.getLength(); i++) { // minden gyerek node-on végig futva
             Node node = childNodes.item(i);
@@ -41,26 +40,26 @@ public class DomReadBFNA2X {
                 Element element = (Element) node;
 
                 NamedNodeMap attributes = element.getAttributes(); // attribútumok keresése
-                
+
                 indent(indent);
                 if (attributes.getLength() > 0) // attribútumokkal rendelkező Element-ek kiírása
-                System.out.println("[" + element.getNodeName() + "] " + attributes.item(0).toString() + " BEGIN");
+                    System.out.println("[" + element.getNodeName() + "] " + attributes.item(0).toString() + " BEGIN");
                 else // Attribútum nélküli elemek kiírása
-                System.out.println("[" + element.getNodeName() + "] BEGIN");
-                
+                    System.out.println("[" + element.getNodeName() + "] BEGIN");
+
                 WriteAllChildren(element.getChildNodes(), indent + 1); // 1-el behúzva rekurzív meghívása
-                
+
                 indent(indent);
                 System.out.println("[" + element.getNodeName() + "] END");
             }
-            
+
             if (node.getNodeType() == Node.TEXT_NODE) { // szöveggel rendelkező node-ok tartalmának kiírása
                 if (!node.getNodeValue().trim().isEmpty()) {
                     indent(indent);
                     System.out.println(node.getNodeValue());
                 }
             }
-            
+
         }
     }
 
@@ -72,29 +71,29 @@ public class DomReadBFNA2X {
                 Element element = (Element) node;
 
                 NamedNodeMap attributes = element.getAttributes();
-                
+
                 indent(sb, indent);
                 if (attributes.getLength() > 0)
-                sb.append("[" + element.getNodeName() + "] " + attributes.item(0).toString() + " BEGIN\n");
+                    sb.append("[" + element.getNodeName() + "] " + attributes.item(0).toString() + " BEGIN\n");
                 else // Attribútum nélküli elemek kiírása
-                sb.append("[" + element.getNodeName() + "] BEGIN\n");
-                
+                    sb.append("[" + element.getNodeName() + "] BEGIN\n");
+
                 WriteChildrenToSB(sb, element.getChildNodes(), indent + 1); // 1-el behúzva rekurzív meghívása
-                
+
                 indent(sb, indent);
                 sb.append("[" + element.getNodeName() + "] END\n");
             }
-            
+
             if (node.getNodeType() == Node.TEXT_NODE) { // szöveggel rendelkező node-ok tartalmának kiírása
                 if (!node.getNodeValue().trim().isEmpty()) {
                     indent(sb, indent);
-                    sb.append(node.getNodeValue()+"\n");
+                    sb.append(node.getNodeValue() + "\n");
                 }
             }
-            
+
         }
     }
-    
+
     private static void indent(int indent) { // behúzás megvalósítása
         for (int k = 0; k < indent; k++) {
             System.out.print("    ");

@@ -1,6 +1,52 @@
 [store] BEGIN
-    [purchase] id="32153124563216" BEGIN
-        [user] userid="8527438538" BEGIN
+    [purchases] BEGIN
+        [purchase] id="p32153124563216" BEGIN
+            [userid] BEGIN
+                u8527438538
+            [userid] END
+            [appid] BEGIN
+                app1061910
+            [appid] END
+            [DoP] BEGIN
+                2022-10-11
+            [DoP] END
+        [purchase] END
+        [purchase] id="p25563252435235" BEGIN
+            [userid] BEGIN
+                u413423
+            [userid] END
+            [appid] BEGIN
+                app223750
+            [appid] END
+            [DoP] BEGIN
+                2020-12-27
+            [DoP] END
+        [purchase] END
+        [purchase] id="p25563252452384" BEGIN
+            [userid] BEGIN
+                u413423
+            [userid] END
+            [appid] BEGIN
+                app411950
+            [appid] END
+            [DoP] BEGIN
+                2020-12-30
+            [DoP] END
+        [purchase] END
+        [purchase] id="p214378654856874" BEGIN
+            [userid] BEGIN
+                u32134
+            [userid] END
+            [appid] BEGIN
+                app1434950
+            [appid] END
+            [DoP] BEGIN
+                2021-11-21
+            [DoP] END
+        [purchase] END
+    [purchases] END
+    [users] BEGIN
+        [user] userid="u8527438538" BEGIN
             [username] BEGIN
                 St. John Paul II
             [username] END
@@ -31,34 +77,7 @@
                 [address] END
             [address] END
         [user] END
-        [application] appid="1061910" BEGIN
-            [title] BEGIN
-                Metal: Hellsinger
-            [title] END
-            [price] BEGIN
-                29.99�
-            [price] END
-            [categories] BEGIN
-                [category] BEGIN
-                    Action
-                [category] END
-                [category] BEGIN
-                    FPS
-                [category] END
-                [category] BEGIN
-                    Rythm
-                [category] END
-                [category] BEGIN
-                    Single Player
-                [category] END
-            [categories] END
-        [application] END
-        [DoP] BEGIN
-            2022-10-11
-        [DoP] END
-    [purchase] END
-    [purchase] id="25563252435235" BEGIN
-        [user] userid="413423" BEGIN
+        [user] userid="u413423" BEGIN
             [username] BEGIN
                 Spoopy McSpook
             [username] END
@@ -79,98 +98,14 @@
                     Europe
                 [region] END
                 [city] BEGIN
-                    Saj�l�d
+                    Sajólád
                 [city] END
                 [postalcode] BEGIN
                     3572
                 [postalcode] END
             [address] END
         [user] END
-        [application] appid="223750" BEGIN
-            [title] BEGIN
-                DCS World
-            [title] END
-            [price] BEGIN
-            [price] END
-            [categories] BEGIN
-                [category] BEGIN
-                    Simulation
-                [category] END
-                [category] BEGIN
-                    Free to Play
-                [category] END
-                [category] BEGIN
-                    Flight
-                [category] END
-                [category] BEGIN
-                    VR
-                [category] END
-            [categories] END
-        [application] END
-        [DoP] BEGIN
-            2020-12-27
-        [DoP] END
-    [purchase] END
-    [purchase] id="25563252452384" BEGIN
-        [user] userid="413423" BEGIN
-            [username] BEGIN
-                Spoopy McSpook
-            [username] END
-            [email] BEGIN
-                potatoenjoyer42@gmail.com
-            [email] END
-            [password] BEGIN
-                c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a
-            [password] END
-            [DoB] BEGIN
-                2000-09-25
-            [DoB] END
-            [address] BEGIN
-                [country] BEGIN
-                    Hungary
-                [country] END
-                [region] BEGIN
-                    Europe
-                [region] END
-                [city] BEGIN
-                    Saj�l�d
-                [city] END
-                [postalcode] BEGIN
-                    3572
-                [postalcode] END
-            [address] END
-        [user] END
-        [application] appid="411950" BEGIN
-            [title] BEGIN
-                DCS: F/A-18C Hornet
-            [title] END
-            [price] BEGIN
-                73.99�
-            [price] END
-            [basegame] BEGIN
-                223750
-            [basegame] END
-            [categories] BEGIN
-                [category] BEGIN
-                    Simulation
-                [category] END
-                [category] BEGIN
-                    VR
-                [category] END
-                [category] BEGIN
-                    Military
-                [category] END
-                [category] BEGIN
-                    Realistic
-                [category] END
-            [categories] END
-        [application] END
-        [DoP] BEGIN
-            2020-12-30
-        [DoP] END
-    [purchase] END
-    [purchase] id="214378654856874" BEGIN
-        [user] userid="32134" BEGIN
+        [user] userid="u32134" BEGIN
             [username] BEGIN
                 Bob
             [username] END
@@ -192,7 +127,77 @@
                 [region] END
             [address] END
         [user] END
-        [application] appid="1434950" BEGIN
+    [users] END
+    [applications] BEGIN
+        [application] appid="app1061910" BEGIN
+            [title] BEGIN
+                Metal: Hellsinger
+            [title] END
+            [price] BEGIN
+                29.99€
+            [price] END
+            [categories] BEGIN
+                [category] BEGIN
+                    Action
+                [category] END
+                [category] BEGIN
+                    FPS
+                [category] END
+                [category] BEGIN
+                    Rythm
+                [category] END
+                [category] BEGIN
+                    Single Player
+                [category] END
+            [categories] END
+        [application] END
+        [application] appid="app223750" BEGIN
+            [title] BEGIN
+                DCS World
+            [title] END
+            [price] BEGIN
+            [price] END
+            [categories] BEGIN
+                [category] BEGIN
+                    Simulation
+                [category] END
+                [category] BEGIN
+                    Free to Play
+                [category] END
+                [category] BEGIN
+                    Flight
+                [category] END
+                [category] BEGIN
+                    VR
+                [category] END
+            [categories] END
+        [application] END
+        [application] appid="app411950" BEGIN
+            [title] BEGIN
+                DCS: F/A-18C Hornet
+            [title] END
+            [price] BEGIN
+                73.99€
+            [price] END
+            [basegame] BEGIN
+                app223750
+            [basegame] END
+            [categories] BEGIN
+                [category] BEGIN
+                    Simulation
+                [category] END
+                [category] BEGIN
+                    VR
+                [category] END
+                [category] BEGIN
+                    Military
+                [category] END
+                [category] BEGIN
+                    Realistic
+                [category] END
+            [categories] END
+        [application] END
+        [application] appid="app1434950" BEGIN
             [title] BEGIN
                 HighFleet
             [title] END
@@ -214,8 +219,5 @@
                 [category] END
             [categories] END
         [application] END
-        [DoP] BEGIN
-            2021-11-21
-        [DoP] END
-    [purchase] END
+    [applications] END
 [store] END

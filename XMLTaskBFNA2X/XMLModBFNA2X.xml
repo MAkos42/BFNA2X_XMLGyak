@@ -1,103 +1,207 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="XMLSchemaBFNA2X.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><store>
+      
+  <purchases>
+            
     <purchase id="p333333333333333">
-        <user userid="8527438538">
-            <username>St. John Paul II</username>
-            <email>realpope@churchofjc.vt</email>
-            <password>eb939414aa6e6055fd0c2699b495e26138537f74e9c9ea47e67ab1ced536077d</password>
-            <DoB>1920-05-18</DoB>
-            <address>
-                <country>Vatican</country>
-                <region>Europe</region>
-                <city>Vatican City</city>
-                <postalcode>00120</postalcode>
-                <address>Saint Peter's Basilica</address>
-            </address>
-        </user>
-        <application appid="1061910">
-            <title>Metal: Hellsinger</title>
-            <price>29.99€</price>
-            <categories>
-                <category>Action</category>
-                <category>FPS</category>
-                <category>Rythm</category>
-                <category>Single Player</category>
-            </categories>
-        </application>
-        <DoP>2022-10-11</DoP>
+                  
+      <userid>u8527438538</userid>
+                  
+      <appid>app1061910</appid>
+                  
+      <DoP>2022-10-11</DoP>
+              
     </purchase>
+            
     <purchase id="p25563252435235">
-        <user userid="413423">
-            <username>Spoopy McSpook</username>
-            <email>potataman@gmail.com</email>
-            <password>c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a</password>
-            <DoB>2000-09-25</DoB>
-            <address>
-                <country>Hungary</country>
-                <region>Europe</region>
-                <city>Sajólád</city>
-                <postalcode>3572</postalcode>
-            </address>
-        </user>
-        <application appid="223750">
-            <title>DCS World</title>
-            <price/>
-            <categories>
-                <category>Simulation</category>
-                <category>Free to Play</category>
-                <category>Flight</category>
-                <category>Virtual Reality</category>
-            </categories>
-        </application>
-        <DoP>2020-12-27</DoP>
+                  
+      <userid>u413423</userid>
+                  
+      <appid>app223750</appid>
+                  
+      <DoP>2020-12-27</DoP>
+              
     </purchase>
+            
     <purchase id="p25563252452384">
-        <user userid="413423">
-            <username>Spoopy McSpook</username>
-            <email>potataman@gmail.com</email>
-            <password>c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a</password>
-            <DoB>2000-09-25</DoB>
-            <address>
-                <country>Hungary</country>
-                <region>Europe</region>
-                <city>Sajólád</city>
-                <postalcode>3572</postalcode>
-            </address>
-        </user>
-        <application appid="411950">
-            <title>DCS: F/A-18C Hornet</title>
-            <price>73.99€</price>
-            <basegame>223750</basegame>
-            <categories>
-                <category>Simulation</category>
-                <category>Virtual Reality</category>
-                <category>Military</category>
-                <category>Realistic</category>
-            </categories>
-        </application>
-        <DoP>2020-12-30</DoP>
+                  
+      <userid>u413423</userid>
+                  
+      <appid>app411950</appid>
+                  
+      <DoP>2020-12-30</DoP>
+              
     </purchase>
+            
     <purchase id="p214378654856874">
-        <user userid="32134">
-            <username>Bob</username>
-            <email>bob@idk.net</email>
-            <password>b0e1f85ba356628f1cc3b4b549e00fcd7841f5c6826a2200d9d99c0ccf70f19e</password>
-            <DoB>1996-01-03</DoB>
-            <address>
-                <country>Chile</country>
-                <region>South America</region>
-            </address>
-        </user>
-        <application appid="1434950">
-            <title>High Fleet</title>
-            <price>$20.99</price>
-            <categories>
-                <category>Single Player</category>
-                <category>Strategy</category>
-                
-                <category>Post-Apocalyptic</category>
-            </categories>
-        </application>
-        <DoP>2021-11-21</DoP>
+                  
+      <userid>u32134</userid>
+                  
+      <appid>app1434950</appid>
+                  
+      <DoP>2021-11-21</DoP>
+              
     </purchase>
+        
+  </purchases>
+      
+  <users>
+            
+    <user userid="u8527438538">
+                  
+      <username>St. John Paul II</username>
+                  
+      <email>realpope@churchofjc.vt</email>
+                  
+      <password>eb939414aa6e6055fd0c2699b495e26138537f74e9c9ea47e67ab1ced536077d</password>
+                  
+      <DoB>1920-05-18</DoB>
+                  
+      <address>
+                        
+        <country>Vatican</country>
+                        
+        <region>Europe</region>
+                        
+        <city>Vatican City</city>
+                        
+        <postalcode>00120</postalcode>
+                        
+        <address>Saint Peter's Basilica</address>
+                    
+      </address>
+              
+    </user>
+            
+    <user userid="u413423">
+                  
+      <username>Spoopy McSpook</username>
+                  
+      <email>potatoenjoyer42@gmail.com</email>
+                  
+      <password>c4e220591cadf3055b5b905cb9d273d614b4bcf44f1a96bf3346e8cfc59a235a</password>
+                  
+      <DoB>2000-09-25</DoB>
+                  
+      <address>
+                        
+        <country>Hungary</country>
+                        
+        <region>Europe</region>
+                        
+        <city>Sajólád</city>
+                        
+        <postalcode>3572</postalcode>
+                    
+      </address>
+              
+    </user>
+            
+    <user userid="u32134">
+                  
+      <username>Bob</username>
+                  
+      <email>bob@idk.net</email>
+                  
+      <password>b0e1f85ba356628f1cc3b4b549e00fcd7841f5c6826a2200d9d99c0ccf70f19e</password>
+                  
+      <DoB>1996-01-03</DoB>
+                  
+      <address>
+                        
+        <country>Chile</country>
+                        
+        <region>South America</region>
+                    
+      </address>
+              
+    </user>
+        
+  </users>
+      
+  <applications>
+            
+    <application appid="app1061910">
+                  
+      <title>Metal: Hellsinger</title>
+                  
+      <price>29.99€</price>
+                  
+      <categories>
+                        
+        <category>Action</category>
+                        
+        <category>FPS</category>
+                        
+        <category>Rythm</category>
+                        
+        <category>Single Player</category>
+                    
+      </categories>
+              
+    </application>
+            
+    <application appid="app223750">
+                  
+      <title>DCS World</title>
+                  
+      <price/>
+                  
+      <categories>
+                        
+        <category>Simulation</category>
+                        
+        <category>Free to Play</category>
+                        
+        <category>Flight</category>
+                        
+        <category>Virtual Reality</category>
+                    
+      </categories>
+              
+    </application>
+            
+    <application appid="app411950">
+                  
+      <title>DCS: F/A-18C Hornet</title>
+                  
+      <price>73.99€</price>
+                  
+      <basegame>app223750</basegame>
+                  
+      <categories>
+                        
+        <category>Simulation</category>
+                        
+        <category>Virtual Reality</category>
+                        
+        <category>Military</category>
+                        
+        <category>Realistic</category>
+                    
+      </categories>
+              
+    </application>
+            
+    <application appid="app1434950">
+                  
+      <title>High Fleet</title>
+                  
+      <price>$20.99</price>
+                  
+      <categories>
+                        
+        <category>Single Player</category>
+                        
+        <category>Strategy</category>
+                        
+                
+        <category>Post-Apocalyptic</category>
+                    
+      </categories>
+              
+    </application>
+        
+  </applications>
+  
 </store>

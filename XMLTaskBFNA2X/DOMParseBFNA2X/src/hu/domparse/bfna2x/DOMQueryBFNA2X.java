@@ -22,13 +22,13 @@ public class DOMQueryBFNA2X {
 
         XPath xpath = XPathFactory.newInstance().newXPath();
 
-        String expression1 = "/store/purchase[1]/application";
-        String expression2 = "//user[@userid=413423]";
+        String expression1 = "store//purchase[appId=(//application[1]/@appid)]";
+        String expression2 = "//user[@userid='u413423']";
         String expression3 = "//application";
-        String expression4 = "store/purchase/user[contains(email,'@gmail.com')]";
-        String expression5 = "//purchase[.//category='VR']";
+        String expression4 = "store/users/user[contains(email,'@gmail.com')]";
+        String expression5 = "//application[.//category='VR']";
 
-        // root elem első purchase elemének az applikációjának a kiírása
+        // az első applikációt tartalmazó purchase elem kiíírása
         System.out.println("1. expression = " + expression1);
         NodeList nodelist = (NodeList) xpath.compile(expression1).evaluate(doc, XPathConstants.NODESET);
 
@@ -40,7 +40,7 @@ public class DOMQueryBFNA2X {
             System.out.println();
         }
 
-        // '413423' userid-vel rendelkező user adatai
+        // 'u413423' userid-vel rendelkező user adatai
         System.out.println("2. expression = " + expression2);
         NodeList nodelist2 = (NodeList) xpath.compile(expression2).evaluate(doc, XPathConstants.NODESET);
 
